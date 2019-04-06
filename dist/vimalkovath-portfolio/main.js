@@ -3620,7 +3620,7 @@ var PostService = /** @class */ (function () {
      */
     PostService.prototype.getPosts = function () {
         // return this.http.get<any>('http://localhost:4200/data/mock-codeschool.json');
-        return this.http.get('../../assets/data/mock-post.json');
+        return this.http.get('https://vimalkovath.github.io/src/assets/data/mock-post.json');
     };
     PostService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
@@ -5288,7 +5288,7 @@ __webpack_require__.r(__webpack_exports__);
 var PROJECTS = [{
         'id': '#project16',
         'name': 'This Portfolio',
-        'image': '../../../assets/img/svg/projects/portfoliov3.svg',
+        'image': 'assets/img/svg/projects/portfoliov3.svg',
         'featured': true,
         'active': true,
         'category': 'Portfolio',
@@ -5298,23 +5298,23 @@ var PROJECTS = [{
         'techs': [
             {
                 'name': 'Angular',
-                'logo': '../../../assets/img/svg/skills/angular.svg'
+                'logo': 'assets/img/svg/skills/angular.svg'
             },
             {
                 'name': 'Sass',
-                'logo': '../../../assets/img/svg/skills/Sass.svg'
+                'logo': 'assets/img/svg/skills/Sass.svg'
             },
             {
                 'name': 'Gulp',
-                'logo': '../../../assets/img/svg/skills/gulp.svg'
+                'logo': 'assets/img/svg/skills/gulp.svg'
             },
             {
                 'name': 'jQuery',
-                'logo': '../../../assets/img/svg/skills/jquery.svg'
+                'logo': 'assets/img/svg/skills/jquery.svg'
             },
             {
                 'name': 'Node',
-                'logo': '../../../assets/img/svg/skills/node.svg'
+                'logo': 'assets/img/svg/skills/node.svg'
             }
         ],
         'gallery': null,
@@ -5351,31 +5351,31 @@ var PROJECTS = [{
         'techs': [
             {
                 'name': 'PHP',
-                'logo': '../../../assets/img/svg/skills/php.svg'
+                'logo': 'assets/img/svg/skills/php.svg'
             },
             {
                 'name': 'Javascript',
-                'logo': '../../../assets/img/svg/skills/javascript.svg'
+                'logo': 'assets/img/svg/skills/javascript.svg'
             },
             {
                 'name': 'CSS',
-                'logo': '../../../assets/img/svg/skills/css.svg'
+                'logo': 'assets/img/svg/skills/css.svg'
             },
             {
                 'name': 'Node',
-                'logo': '../../../assets/img/svg/skills/node.svg'
+                'logo': 'assets/img/svg/skills/node.svg'
             },
             {
                 'name': 'scss',
-                'logo': '../../../assets/img/svg/skills/Sass.svg'
+                'logo': 'assets/img/svg/skills/Sass.svg'
             },
             {
                 'name': 'angular',
-                'logo': '../../../assets/img/svg/skills/angular.svg'
+                'logo': 'assets/img/svg/skills/angular.svg'
             },
             {
                 'name': 'javascript',
-                'logo': '../../../assets/img/svg/skills/javascript.svg'
+                'logo': 'assets/img/svg/skills/javascript.svg'
             }
         ],
         'gallery': null,
@@ -5412,23 +5412,23 @@ var PROJECTS = [{
         'techs': [
             {
                 'name': 'Bootstrap',
-                'logo': '../../../assets/img/svg/skills/bootstrap.svg'
+                'logo': 'assets/img/svg/skills/bootstrap.svg'
             },
             {
                 'name': 'jQuery',
-                'logo': '../../../assets/img/svg/skills/jquery.svg'
+                'logo': 'assets/img/svg/skills/jquery.svg'
             },
             {
                 'name': 'java',
-                'logo': '../../../assets/img/svg/skills/java.svg'
+                'logo': 'assets/img/svg/skills/java.svg'
             },
             {
                 'name': 'html',
-                'logo': '../../../assets/img/svg/skills/html.svg'
+                'logo': 'assets/img/svg/skills/html.svg'
             },
             {
                 'name': 'CSS',
-                'logo': '../../../assets/img/svg/skills/css.svg'
+                'logo': 'assets/img/svg/skills/css.svg'
             }
         ],
         'gallery': [],
@@ -5475,7 +5475,7 @@ var ROLES = [{
             },
             {
                 'name': 'Typescript',
-                'logo': '../../../assets/img/svg/skills/typescript.svg'
+                'logo': 'assets/img/svg/skills/typescript.svg'
             },
             {
                 'name': 'Scss',
@@ -5483,31 +5483,31 @@ var ROLES = [{
             },
             {
                 'name': 'Draw.io',
-                'logo': '../../../assets/img/svg/skills/drawio.svg'
+                'logo': 'assets/img/svg/skills/drawio.svg'
             },
             {
                 'name': 'D3.js',
-                'logo': '../../../assets/img/svg/skills/d3.svg'
+                'logo': 'assets/img/svg/skills/d3.svg'
             },
             {
                 'name': 'Google Developers',
-                'logo': '../../../assets/img/svg/skills/googledev.svg'
+                'logo': 'assets/img/svg/skills/googledev.svg'
             },
             {
                 'name': 'Gulp',
-                'logo': '../../../assets/img/svg/skills/gulp.svg'
+                'logo': 'assets/img/svg/skills/gulp.svg'
             },
             {
                 'name': 'jQuery',
-                'logo': '../../../assets/img/svg/skills/jquery.svg'
+                'logo': 'assets/img/svg/skills/jquery.svg'
             },
             {
                 'name': 'Sketch',
-                'logo': '../../../assets/img/svg/skills/sketch.svg'
+                'logo': 'assets/img/svg/skills/sketch.svg'
             },
             {
                 'name': 'AWS',
-                'logo': '../../../assets/img/svg/skills/aws.svg'
+                'logo': 'assets/img/svg/skills/aws.svg'
             }
         ],
         'dates': {
@@ -5547,7 +5547,7 @@ var ROLES = [{
             },
             {
                 'name': 'Typescript',
-                'logo': '../../../assets/img/svg/skills/typescript.svg'
+                'logo': 'assets/img/svg/skills/typescript.svg'
             },
             {
                 'name': 'Scss',
@@ -5555,27 +5555,27 @@ var ROLES = [{
             },
             {
                 'name': 'Draw.io',
-                'logo': '../../../assets/img/svg/skills/drawio.svg'
+                'logo': 'assets/img/svg/skills/drawio.svg'
             },
             {
                 'name': 'D3.js',
-                'logo': '../../../assets/img/svg/skills/d3.svg'
+                'logo': 'assets/img/svg/skills/d3.svg'
             },
             {
                 'name': 'Google Developers',
-                'logo': '../../../assets/img/svg/skills/googledev.svg'
+                'logo': 'assets/img/svg/skills/googledev.svg'
             },
             {
                 'name': 'Gulp',
-                'logo': '../../../assets/img/svg/skills/gulp.svg'
+                'logo': 'assets/img/svg/skills/gulp.svg'
             },
             {
                 'name': 'jQuery',
-                'logo': '../../../assets/img/svg/skills/jquery.svg'
+                'logo': 'assets/img/svg/skills/jquery.svg'
             },
             {
                 'name': 'AWS',
-                'logo': '../../../assets/img/svg/skills/aws.svg'
+                'logo': 'assets/img/svg/skills/aws.svg'
             }
         ],
         'dates': {
@@ -5615,19 +5615,19 @@ var ROLES = [{
             },
             {
                 'name': 'D3.js',
-                'logo': '../../../assets/img/svg/skills/d3.svg'
+                'logo': 'assets/img/svg/skills/d3.svg'
             },
             {
                 'name': 'Gulp',
-                'logo': '../../../assets/img/svg/skills/gulp.svg'
+                'logo': 'assets/img/svg/skills/gulp.svg'
             },
             {
                 'name': 'jQuery',
-                'logo': '../../../assets/img/svg/skills/jquery.svg'
+                'logo': 'assets/img/svg/skills/jquery.svg'
             },
             {
                 'name': 'AWS',
-                'logo': '../../../assets/img/svg/skills/aws.svg'
+                'logo': 'assets/img/svg/skills/aws.svg'
             }
         ],
         'dates': {
@@ -5663,23 +5663,23 @@ var ROLES = [{
         'techs': [
             {
                 'name': 'html',
-                'logo': '../../../assets/img/svg/skills/html.svg'
+                'logo': 'assets/img/svg/skills/html.svg'
             },
             {
                 'name': 'Bootstrap',
-                'logo': '../../../assets/img/svg/skills/bootstrap.svg'
+                'logo': 'assets/img/svg/skills/bootstrap.svg'
             },
             {
                 'name': 'jQuery',
-                'logo': '../../../assets/img/svg/skills/jquery.svg'
+                'logo': 'assets/img/svg/skills/jquery.svg'
             },
             {
                 'name': 'css',
-                'logo': '../../../assets/img/svg/skills/css.svg'
+                'logo': 'assets/img/svg/skills/css.svg'
             },
             {
                 'name': 'javascript',
-                'logo': '../../../assets/img/svg/skills/javascript.svg'
+                'logo': 'assets/img/svg/skills/javascript.svg'
             }
         ],
         'dates': {
@@ -6007,7 +6007,7 @@ var TOOLS = [{
         'featured': false,
         'category': 'Collaborative',
         'desc': 'Version Control System',
-        'image': '../../../assets/img/svg/tools/git.svg',
+        'image': 'assets/img/svg/tools/git.svg',
         'url': 'https://en.wikipedia.org/wiki/Git'
     },
     {
@@ -6016,7 +6016,7 @@ var TOOLS = [{
         'featured': false,
         'category': 'IDE',
         'desc': 'IDE developed by Adobe',
-        'image': '../../../assets/img/svg/tools/dreamweaver.svg',
+        'image': 'assets/img/svg/tools/dreamweaver.svg',
         'url': 'https://en.wikipedia.org/wiki/Adobe_Dreamweaver'
     },
     {
@@ -6025,7 +6025,7 @@ var TOOLS = [{
         'featured': false,
         'category': 'Project Management',
         'desc': 'Tool for taking notes',
-        'image': '../../../assets/img/svg/tools/evernote.svg',
+        'image': 'assets/img/svg/tools/evernote.svg',
         'url': 'https://en.wikipedia.org/wiki/Evernote'
     },
     {
@@ -6034,7 +6034,7 @@ var TOOLS = [{
         'featured': true,
         'category': 'Package Manager',
         'desc': 'Default package manager for every project',
-        'image': '../../../assets/img/svg/tools/npm.svg',
+        'image': 'assets/img/svg/tools/npm.svg',
         'url': 'https://en.wikipedia.org/wiki/Npm_(software)'
     },
     {
@@ -6043,7 +6043,7 @@ var TOOLS = [{
         'featured': false,
         'category': 'Collaborative',
         'desc': 'Cloud service & Desktop Softwares',
-        'image': '../../../assets/img/svg/tools/office.svg',
+        'image': 'assets/img/svg/tools/office.svg',
         'url': 'https://en.wikipedia.org/wiki/Microsoft_Office'
     },
     {
@@ -6052,7 +6052,7 @@ var TOOLS = [{
         'featured': false,
         'category': 'Collaborative',
         'desc': 'Cloud service',
-        'image': '../../../assets/img/svg/tools/slack.svg',
+        'image': 'assets/img/svg/tools/slack.svg',
         'url': 'https://en.wikipedia.org/wiki/Slack_Technologies'
     },
     {
@@ -6061,7 +6061,7 @@ var TOOLS = [{
         'featured': false,
         'category': 'Project Management',
         'desc': 'Kanban based project management tool',
-        'image': '../../../assets/img/svg/tools/trello.svg',
+        'image': 'assets/img/svg/tools/trello.svg',
         'url': 'https://en.wikipedia.org/wiki/Trello'
     },
     {
@@ -6070,7 +6070,7 @@ var TOOLS = [{
         'featured': false,
         'category': 'Collaborative',
         'desc': 'Cloud service',
-        'image': '../../../assets/img/svg/tools/googledrive.svg',
+        'image': 'assets/img/svg/tools/googledrive.svg',
         'url': 'https://en.wikipedia.org/wiki/Google_Drive'
     },
     {
@@ -6079,7 +6079,7 @@ var TOOLS = [{
         'featured': true,
         'category': 'Collaborative',
         'desc': 'Suite of tools: BitBucket, Jira, Sourcetree and so on',
-        'image': '../../../assets/img/svg/tools/atlassian.svg',
+        'image': 'assets/img/svg/tools/atlassian.svg',
         'url': 'https://en.wikipedia.org/wiki/Atlassian'
     },
     {
@@ -6088,7 +6088,7 @@ var TOOLS = [{
         'featured': true,
         'category': 'Collaborative',
         'desc': 'Web & Destktop Git UI tool',
-        'image': '../../../assets/img/svg/tools/github.svg',
+        'image': 'assets/img/svg/tools/github.svg',
         'url': 'https://en.wikipedia.org/wiki/GitHub'
     },
     {
@@ -6097,7 +6097,7 @@ var TOOLS = [{
         'featured': true,
         'category': 'IDE',
         'desc': 'Powerful, flexible and free IDE developed by GitHub',
-        'image': '../../../assets/img/svg/tools/atom.svg',
+        'image': 'assets/img/svg/tools/atom.svg',
         'url': 'https://en.wikipedia.org/wiki/Atom_(text_editor)'
     },
     {
