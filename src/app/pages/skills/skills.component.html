@@ -1,0 +1,24 @@
+<div class="container-stretch wrap-stretch">
+
+  <app-filters [page]="'skills'" (selectFilter)="filterFor($event)"></app-filters>
+
+  <!-- Filter by frequency -->
+  <div class="container-toggle">
+    <label class="toggle">
+      <input class="toggle-input" type="checkbox" (change)="frequency ? frequency = false : frequency = true">
+      <span class="toggle-btn"></span>
+    </label>
+    <span class="toggle-label">Expertise</span>
+  </div>
+
+  <!-- RESULT -->
+  <main class="container wrap-cards row">
+    <app-card
+      class="col-xs-12 col-sm-4 col-md-3"
+      *ngFor="let skill of skills | filter:{ category: value, frequent: frequency }"
+      [object]="skill"
+      (moreInfo)="openModal($event, 'skill')">
+    </app-card>
+  </main>
+
+</div>

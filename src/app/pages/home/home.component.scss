@@ -1,0 +1,36 @@
+@import 'variables';
+@import 'images';
+
+.wrap-home {
+  .img-group {
+    @include flex-layout(wrap, space-around, flex-start, flex-start);
+    margin: auto;
+    width: 75%;
+
+    .img-wrap {
+      margin: auto $gap-big;
+    }
+  }
+
+  .jumbotron {
+    .img-group {
+      @include flex-layout(wrap, flex-start, flex-start, flex-start);
+      margin: auto 0px $gap-reg;
+
+      .img-wrap {
+        margin: auto $gap-reg auto 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrap-home {
+    .jumbotron {
+      .img-group {
+        @include flex-layout(wrap, center, flex-start, flex-start);
+        margin: auto auto $gap-reg;
+      }
+    }
+  }
+}

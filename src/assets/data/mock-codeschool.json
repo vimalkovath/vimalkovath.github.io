@@ -1,0 +1,135 @@
+{
+  "user": {
+    "username": "vimalkovath",
+    "member_since": "10-01-1989",
+    "total_score": "**%" ,
+    "avatar": "https://avatars3.githubusercontent.com/u/7240661?s=400&v=4",
+    "organism": {
+      "name": "Online",
+      "image": "../../../assets/img/svg/education/udemy.svg",
+      "url": "https://github.com/vimalkovath"
+    }
+  },
+  "courses": {
+    "completed": [
+     
+      {
+        "title": "Angular CLI - Mastering the Basics",
+        "badge": "https://udemy-certificate.s3.amazonaws.com/image/UC-D7PO9RVM.jpg?l=null",
+        "url": "https://www.udemy.com/angular-cli-mastering-the-basics/"
+      },
+      {
+        "title": "Learn AngularJS Step By Step",
+        "badge": "https://udemy-certificate.s3.amazonaws.com/image/UC-BNU6HE97.jpg?l=null",
+        "url": "https://www.udemy.com/maruti-angularjs/"
+      },
+      {
+        "title": "GraphQL with React: The Complete Developers Guide",
+        "badge": "https://udemy-certificate.s3.amazonaws.com/image/UC-FRAT9E3H.jpg?l=null",
+        "url": "https://www.udemy.com/graphql-with-react-course/"
+      },
+      {
+        "title": "What Is SEO? Learn SEO Basics & Optimize Your Website",
+        "badge": "https://udemy-certificate.s3.amazonaws.com/image/UC-4NUG5LDF.jpg?l=null",
+        "url": "https://www.udemy.com/what-is-seo/"
+      }
+      
+    ],
+    "planned": [
+      {
+        "title": "Front-end Formations",
+        "url": "http://www.codeschool.com/courses/front-end-formations",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/315/completed-front-end-formations-165329e44a56cd6d401c0c60369d368e.png"
+      },
+     
+      {
+        "title": "Adventures in Web Animations",
+        "url": "http://www.codeschool.com/courses/adventures-in-web-animations",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/525/adventures-in-web-animations-ddb801dc0f6e1c033511311fa0eddece.png"
+      },
+      {
+        "title": "Cracking the Case With Flexbox",
+        "url": "http://www.codeschool.com/courses/cracking-the-case-with-flexbox",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/674/cracking-the-case-with-flexbox-bd5a2fab4f22076828152007da4ded45.png"
+      },
+      {
+        "title": "Blasting Off with Bootstrap",
+        "url": "http://www.codeschool.com/courses/blasting-off-with-bootstrap",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/481/course-complete-0920f3daf574016a49db7991228d99bf.png"
+      },
+      {
+        "title": "ES2015: The Shape of JavaScript to Come",
+        "url": "http://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/575/es2015-the-shape-of-javascript-to-come-4fc892886efc17afcade1d54da324a38.png"
+      },
+     
+      {
+        "title": "Assembling Sass",
+        "url": "http://www.codeschool.com/courses/assembling-sass",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/146/completed-assembling-sass-18b0ff2185f670f8cc1de4a8034b53b9.png"
+      },
+      {
+        "title": "Journey Into Mobile",
+        "url": "http://www.codeschool.com/courses/journey-into-mobile",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/102/completed-journey-into-mobile-9c1cfe569a838cc2acd84afc47712674.png"
+      },
+      {
+        "title": "CSS Cross-Country",
+        "url": "http://www.codeschool.com/courses/css-cross-country",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/40/completed-css-cross-country-ec9a9aa14797031680577e7a986bef75.png"
+      },
+      {
+        "title": "Try Git",
+        "url": "http://www.codeschool.com/courses/try-git",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/121/completed-try-git-b54d1cd9fa940e4a3c1925056d38eca2.png"
+      },
+     
+      {
+        "title": "Try jQuery",
+        "url": "http://www.codeschool.com/courses/try-jquery",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/191/completed-try-jquery-872711eae2fc5024011c64863ae69323.png"
+      }
+     
+    ],
+    "in_progress": [
+      {
+        "title": "Try Python",
+        "url": "http://www.codeschool.com/courses/try-python",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/596/try-python-d2bdf771d5ce179c7b198432f349d481.png"
+      },
+      {
+        "title": "Unmasking HTML Emails",
+        "url": "http://www.codeschool.com/courses/unmasking-html-emails",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/505/course-complete-ff3bc01bb1609ae6d0d0c4057c9822d9.png"
+      },
+      {
+        "title": "Git Real 2",
+        "url": "http://www.codeschool.com/courses/git-real-2",
+        "badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/252/completed-git-real-2-70d7411574c89345143dd795086378c9.png"
+      }
+     
+    ]
+  },
+  "badges": [
+    {
+      "name": "Angular CLI - Mastering the Basics",
+      "badge": "https://udemy-certificate.s3.amazonaws.com/image/UC-D7PO9RVM.jpg?l=null",
+      "course_url": "https://www.udemy.com/angular-cli-mastering-the-basics/"
+    },
+    {
+      "name": "Learn AngularJS Step By Step",
+      "badge": "https://udemy-certificate.s3.amazonaws.com/image/UC-BNU6HE97.jpg?l=null",
+      "course_url": "https://www.udemy.com/maruti-angularjs/"
+    },
+    {
+      "name": "GraphQL with React: The Complete Developers Guide",
+      "badge": "https://udemy-certificate.s3.amazonaws.com/image/UC-FRAT9E3H.jpg?l=null",
+      "course_url": "https://www.udemy.com/graphql-with-react-course/"
+    },
+    {
+      "name": "What Is SEO? Learn SEO Basics & Optimize Your Website",
+      "badge": "https://udemy-certificate.s3.amazonaws.com/image/UC-4NUG5LDF.jpg?l=null",
+      "course_url": "https://www.udemy.com/what-is-seo/"
+    }
+  ]
+}

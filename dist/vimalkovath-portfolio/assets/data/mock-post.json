@@ -1,0 +1,98 @@
+{
+
+    "articles": [{
+            "id": "1",
+            "author": "udhayaragavan",
+            "title": "SEO",
+            "points": [
+                " What is SEO and Why its imported",
+                "How search engines work",
+                "on-site ,on-page ,off-page see",
+                "key elements of on site and offsite seo",
+                "How to measure impact"
+            ],
+            "description": "Bing, the web search engine owned by Microsoft, blocked more than 5 million cryptocurrency advertisements last year, new figures from the company reveal. Microsoft’s Bing Says Cryptocurrency ‘Key Focus’ As part of its Ad Quality Year in Review 2018 document w…",
+            "paragraph": [{
+                    "heading": " What is SEO",
+                    "desc": "visibility of search page in a search engine"
+                },
+                {
+                    "heading": " How search engines work",
+                    "desc": "crawl—> cache—> retrive—>rank—>save in search engine result page.crawl our site stored in google server cache .when search next time get it from nearest available server"
+                },
+                {
+                    "heading": " page ranking",
+                    "desc": "serp is different according to location.more links with content related to search more relevant"
+                },
+                {
+                    "heading": " page ranking",
+                    "desc": "SERP is different according to location.more links with content related to search more relevant"
+                }
+
+            ],
+            "keys": [
+                "on site see getting info from page",
+                "offsite getting info from another site",
+                "Webpage performance test",
+                "mobile friendly",
+                "keyword research",
+                "page title",
+                "meta description",
+                "heading tags",
+                "content writing",
+                "all tags and images",
+                "html5 micro data",
+                "internal linking",
+                "meta page titile",
+                "title tags",
+                "heading tags h1",
+                "relevant relative content",
+                "alt tags in images",
+                "Micro data item prop itemsccope",
+                "linking to related pages"
+            ],
+            "url": "https://bitcoinist.com/microsoft-bing-cryptocurrency-ads/",
+            "image": "https://bitcoinist.com/wp-content/uploads/2019/03/shutterstock_698367646.jpg",
+            "publishedAt": "2019-03-26",
+            "content": "Bing, the web search engine owned by Microsoft, blocked more than 5 million cryptocurrency advertisements last year, new figures from the company reveal.\r\nMicrosoft’s Bing Says Cryptocurrency ‘Key Focus’\r\nAs part of its Ad Quality Year in Review 2018 document… [+3163 chars]",
+            "tags": [
+                "one",
+                "news plus two",
+                " another plus one"
+            ]
+        },
+        {
+            "id": "2",
+            "author": "udhayaragavan",
+            "title": "Misguided Spying and the New Zealand Massacre",
+            "description": "Now that the bodies of 49 innocent human beings are lying in a Christchurch, New Zealand, morgue — gunned down by a heavily armed terrorist — New Zealand media are asking the obvious questions: why didn’t our intelligence agencies know there were xenophobic, …",
+            "url": "https://www.globalresearch.ca/misguided-spying-new-zealand-massacre/5672707",
+            "image": "https://www.globalresearch.ca/wp-content/uploads/2019/03/new-zealand-massacre.jpg",
+            "publishedAt": "2019-03-26",
+            "content": "Now that the bodies of 49 innocent human beings are lying in a Christchurch, New Zealand, morgue gunned down by a heavily armed terrorist New Zealand media are asking the obvious questions: why didnt our intelligence agencies know there were xenophobic, murde… [+5768 chars]",
+            "tags": [
+                "one",
+                "news plus two",
+                " another plus one"
+            ]
+        },
+        {
+            "id": "3",
+            "author": "udhayaragavan",
+            "title": "Bitcoin exchange DragonEx ‘hacked for undisclosed amount’",
+            "description": "Cryptocurrency exchange DragonEx says it has been hacked, although it is not yet known how much has been lost in the alleged attack. The Singapore-based company announced the news on its official Telegram channel on Monday. In its announcement, the company ex…",
+            "url": "https://brica.de/alerts/alert/public/1252002/bitcoin-exchange-dragonex-hacked-for-undisclosed-amount/",
+            "image": "https://www.globalresearch.ca/wp-content/uploads/2019/03/new-zealand-massacre.jpg",
+            "publishedAt": "2019-03-26",
+            "content": "Cryptocurrency exchange DragonEx says it has been hacked, although it is not yet known how much has been lost in the alleged attack.The Singapore-based company announced the news on its official Telegram channel on Monday. \r\nIn its announcement, the company e… [+819 chars]",
+            "tags": [
+                "one",
+                "news plus two",
+                " another plus one",
+                " another plus one",
+                " another plus one"
+            ]
+        }
+
+    ]
+}

@@ -1,0 +1,102 @@
+
+<!-- Section: Blog v.3 -->
+<section class="my-5" *ngIf='grid'>
+    
+      <div class="row">
+
+        <!-- Grid column -->
+      <div class="col-lg-5 col-xl-4">
+        <!-- Featured image -->
+        <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4">
+            <img class="img-fluid" [src]="object.image || object.badge" [alt]="object.name || object.title">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-lg-7 col-xl-8">
+          <h3 class="ellipsis-two-lines">{{ object.name || object.title | translate}}</h3>
+        <!-- <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3> -->
+        <div class="single-news col-md-6 mb-0" *ngFor="let tag of object.tags">
+            <div class="d-flex justify-content-between">
+              <div class=" text-truncate pl-0 mb-0">
+                <a>{{tag}}</a>
+              </div>
+              <a><i class="fas fa-angle-double-right"></i></a>
+            </div>
+          </div>
+        <!-- <p class="dark-grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
+          quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus
+          et aut officiis debitis cum soluta nobis est eligendi placeat facere aut rerum.</p> -->
+        <p class="col-md-12">by <a class="font-weight-bold">{{ object.author}}</a>, {{ object.punlishedAt}}</p>
+        <a class="col-md-12 btn btn-outline-blue btn-md">Read more</a>
+      </div>
+      <!-- Grid column -->
+  
+    </div>
+  
+    <hr class="my-5">
+  
+  </section>
+  <!-- Section: Blog v.3 -->
+
+
+
+
+
+
+
+
+<!-- type 2 -->
+<section *ngIf='!grid'>
+    <div class="single-news mb-0">
+        <div class="view overlay rounded z-depth-2 mb-0">
+            <img class="img-fluid" [src]="object.image || object.badge" [alt]="object.name || object.title">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+        <div class="row mb-0">
+          <div class="col-12">
+            <a href="#!"><span class="badge pink"><i class="fas fa-camera pr-2" aria-hidden="true"></i>Adventure</span></a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between">
+          <div class="col-11 text-truncate pl-0 mb-0">
+              <h3 class="ellipsis-two-lines">{{ object.name || object.title | translate}}</h3>
+          </div>
+          <a><i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+      <div class="single-news mb-0" *ngFor="let tag of object.tags">
+        <div class="d-flex justify-content-between">
+          <div class="col-11 text-truncate pl-0 mb-0">
+            <a>{{tag}}</a>
+          </div>
+          <a><i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+      <a class="btn btn-deep-orange btn-rounded btn-md">Read more</a>
+</section>
+           
+
+<!-- type 1 -->
+<!-- <article class="card-reg thumbnail" [class.active]="focusedItemBtn">
+    <div class="row">
+      <section class="card-image col-xs-4">
+        <figure class="img img-round--sm">
+          <img [src]="object.image || object.badge" [alt]="object.name || object.title">
+        </figure>
+      </section>
+      <section class="card-info col-xs-8">
+          <header>
+            <h3 class="ellipsis-two-lines">{{ object.name || object.title | translate}}</h3>
+          </header>
+          <p *ngIf="object.desc">{{ object.desc | translate | ellipsis:50 }}</p>
+      </section>
+    </div>
+  </article> -->
+  

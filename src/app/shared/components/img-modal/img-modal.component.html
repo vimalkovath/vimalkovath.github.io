@@ -1,0 +1,12 @@
+<section class="modal-gallery modal-content">
+
+  <header class="modal-header" (click)="bsModalRef.hide()">
+    <button type="button" class="close">&times;</button>
+    <h3 class="modal-title">{{ pic.name }}</h3>
+  </header>
+
+  <figure class="img">
+    <img [src]="pic.image" [alt]="pic.alt">
+  </figure>
+
+</section>

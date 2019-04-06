@@ -1,0 +1,17 @@
+<div class="container-stretch">
+  <app-filters [page]="'experience'" (selectFilter)="filterFor($event)"></app-filters>
+
+  <main class="row container-dual">
+    <!-- LIST -->
+    <app-list-preview
+      class="col-xs-12 col-sm-4 container-select block-center-xs"
+      [objects]="roles"
+      [type]="'role'"
+      [filterValue]="filterValue"
+      (focusedItem)="focusItem($event)">
+    </app-list-preview>
+
+    <!-- PREVIEW -->
+    <app-preview class="col-xs-8 container-preview hidden-xs" [focusedItem]="focusedItem" [type]="'role'"></app-preview>
+  </main>
+</div>

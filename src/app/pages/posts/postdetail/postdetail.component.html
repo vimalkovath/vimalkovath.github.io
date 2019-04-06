@@ -1,0 +1,183 @@
+<div class="container wrap-stretch">
+
+  <!-- Section: Blog v.4 -->
+  <section class="my-5" *ngIf="details">
+
+    <!-- Grid row -->
+    <div class="row">
+      <!-- {{details|json}} -->
+      <ul class="list-group list-group-flush" *ngFor="let point of details.points">
+        <li class="list-group-item">{{point}}</li>
+
+      </ul>
+      <!-- Grid column -->
+      <div class="col-md-12">
+
+        <!-- Card -->
+        <div class="card card-cascade wider reverse">
+          <!-- Card image -->
+          <div class="view view-cascade overlay">
+            <img class="card-img-top" [src]="details.image" [alt]="details.title">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+
+          <!-- Card content -->
+          <div class="card-body card-body-cascade text-center">
+
+            <!-- Title -->
+            <h2 class="font-weight-bold"><a>{{details.title}}</a></h2>
+            <!-- Data -->
+            <p>Written by <a><strong>{{details.author}}</strong></a>, {{details.publishedAt}}</p>
+            <!-- Social shares -->
+            <div class="social-counters">
+              <!-- Facebook -->
+              <a class="btn btn-fb">
+                <i class="fab fa-facebook-f pr-2"></i>
+                <span class="clearfix d-none d-md-inline-block">Facebook</span>
+              </a>
+              <span class="counter">46</span>
+              <!-- Twitter -->
+              <a class="btn btn-tw">
+                <i class="fab fa-twitter pr-2"></i>
+                <span class="clearfix d-none d-md-inline-block">Twitter</span>
+              </a>
+              <span class="counter">22</span>
+              <!-- Google+ -->
+              <a class="btn btn-gplus">
+                <i class="fab fa-google-plus-g pr-2"></i>
+                <span class="clearfix d-none d-md-inline-block">Google+</span>
+              </a>
+              <span class="counter">31</span>
+              <!-- Comments -->
+              <a class="btn btn-default">
+                <i class="far fa-comments pr-2"></i>
+                <span class="clearfix d-none d-md-inline-block">Comments</span>
+              </a>
+              <span class="counter">18</span>
+            </div>
+            <!-- Social shares -->
+
+          </div>
+          <!-- Card content -->
+
+        </div>
+        <!-- Card -->
+
+        <!-- Excerpt -->
+        <div class="mt-5">
+
+          <p>
+            {{details.description}}
+          </p>
+
+          <div class="list-group">
+            <a class="list-group-item list-group-item-action flex-column align-items-start active">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-2 h5">List group item heading</h5>
+                <!-- <small>3 days ago</small> -->
+              </div>
+              <p class="mb-2">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                blandit.</p>
+              <small>Donec id elit non mi porta.</small>
+            </a>
+            <a class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-2 h5">List group item heading</h5>
+                <!-- <small class="text-muted">3 days ago</small> -->
+              </div>
+              <p class="mb-2">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius
+                blandit.</p>
+              <small class="text-muted">Donec id elit non mi porta.</small>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+    <div *ngFor="let key of details.keys">
+      <span class="badge badge-default mb-2">
+        {{key}}
+      </span>
+    </div>
+
+
+    <hr class="mb-5 mt-4">
+
+  </section>
+  <!-- Section: Blog v.4 -->
+</div>
+
+
+<!--Section: Live preview-->
+<div id="v-1" class="container">
+
+  <!-- Section: Magazine v.1 -->
+  <section class="magazine-section my-5">
+
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold text-center my-5">Related Posts</h2>
+    <!-- Section description -->
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-6 col-md-12" *ngFor="let post of posts">
+
+        <!-- Small news -->
+        <div class="single-news mb-4">
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-3">
+
+              <!--Image-->
+              <div class="view overlay rounded z-depth-1 mb-4" (click)="goTo(post)">
+                <img class="img-fluid" [src]="post.image" [alt]="post.title">
+                <a>
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-9">
+              <!-- Excerpt -->
+              <p class="font-weight-bold dark-grey-text">{{post.publishedAt}}</p>
+              <div class="d-flex justify-content-between">
+                <div class="col-11 text-truncate pl-0 mb-3">
+                  <a (click)="goTo(post)" class="dark-grey-text">{{post.title}}</a>
+                </div>
+                <a (click)="goTo(post)"><i class="fas fa-angle-double-right"></i></a>
+              </div>
+
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+        </div>
+        <!-- Small news -->
+
+
+      </div>
+      <!-- Grid column -->
+
+
+    </div>
+    <!-- Grid row -->
+
+  </section>
+  <!-- Section: Magazine v.1 -->
+</div>

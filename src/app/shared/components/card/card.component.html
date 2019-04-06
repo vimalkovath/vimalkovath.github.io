@@ -1,0 +1,44 @@
+<article class="card-reg thumbnail" [class.active]="focusedItemBtn">
+
+  <div class="row">
+    <section class="card-image col-xs-4">
+      <figure class="img img-round--sm">
+        <img [src]="object.image || object.badge" [alt]="object.name || object.title">
+      </figure>
+    </section>
+
+    <section class="card-info col-xs-8">
+        <header>
+          <h3 class="ellipsis-two-lines">{{ object.name || object.title | translate}}</h3>
+        </header>
+
+        <p *ngIf="object.desc">{{ object.desc | translate | ellipsis:50 }}</p>
+    </section>
+  </div>
+
+  <!-- If not Codeschool certif (no badge attribute) -->
+  <footer class="card-link">
+    <a class="btn btn-card"
+       role="button"
+       data-toggle="modal"
+       data-target="#myModal"
+       *ngIf="!object.badge"
+       (mouseenter)="focusedItemBtn = true"
+       (mouseleave)="focusedItemBtn = false"
+       (click)="getMoreInfo(object.id)">
+      {{ 'more-info' | translate }}
+    </a>
+
+    <!-- If Codeschool certif (has badge attribute) -->
+    <a
+      class="btn btn-card"
+      [href]="object.url"
+      (mouseenter)="focusedItemBtn = true"
+      (mouseleave)="focusedItemBtn = false"
+      *ngIf="object.badge"
+      target="_blank">
+      {{ 'more-info' | translate }}
+    </a>
+  </footer>
+
+</article>
