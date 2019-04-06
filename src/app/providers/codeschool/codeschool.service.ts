@@ -19,7 +19,7 @@ export class CodeschoolService {
    */
   public getCodeschoolProfile(): Observable<any> {
     // return this.http.get<any>('http://localhost:4200/data/mock-codeschool.json');
-    return this.http.get<any>('assets/data/mock-codeschool.json');
+    return this.http.get<any>('https://vimalkovath.github.io/dist/vimalkovath-portfolio/assets/data/mock-codeschool.json');
   }
 
 }
