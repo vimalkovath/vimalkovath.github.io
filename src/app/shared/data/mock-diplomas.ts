@@ -6,7 +6,8 @@ export let DIPLOMAS: Diploma[] = [
   'name': '#diplomaCs',
   'category': 'Certification',
   'gallery': [{
-    'image': '../../../assets/img/svg/education/udemy.svg',
+    // 'image': '../../../assets/img/svg/education/udemy.svg',
+    'image': 'assets/img/svg/education/udemy.svg',
     'name': 'udemy Logo',
     'alt': 'Image of udemy logo',
   }],
@@ -19,7 +20,7 @@ export let DIPLOMAS: Diploma[] = [
   ],
   'school': {
     'name': 'udemy',
-    'image': '../../../assets/img/svg/education/udemy.svg',
+    'image': 'assets/img/svg/education/udemy.svg',
     'place': 'Online',
     'country': 'Online',
     'url': 'https://www.udemy.com/'
@@ -36,7 +37,7 @@ export let DIPLOMAS: Diploma[] = [
   'name': '#Btech',
   'category': 'Bachelor\'s Degree',
   'gallery': [{
-    'image': '../../../assets/img/png/diplomas/au.jpeg',
+    'image': 'assets/img/png/diplomas/au.jpeg',
     'name': 'Bachelor\'s Degree Diploma',
     'alt': 'Image of bachelor\'s degree diploma',
   }],
@@ -50,7 +51,7 @@ export let DIPLOMAS: Diploma[] = [
     'name': 'King collage of technology namakkal',
     'place': 'Tamil nadu',
     'country': 'India',
-    'image': '../../../assets/img/png/diplomas/au.jpeg',
+    'image': 'assets/img/png/diplomas/au.jpeg',
     'url': 'https://www.annauniv.edu/'
   },
   'dates': {
@@ -60,7 +61,7 @@ export let DIPLOMAS: Diploma[] = [
   'projects': [{
     'id': '#project5',
     'name': '',
-    'image': '../../../assets/img/png/diplomas/au.jpeg',
+    'image': 'assets/img/png/diplomas/au.jpeg',
     'url': 'https://www.annauniv.edu/'
   }]
 },
@@ -70,7 +71,7 @@ export let DIPLOMAS: Diploma[] = [
   'name': '#diploma',
   'category': 'University Diploma',
   'gallery': [{
-    'image': '../../../assets/img/svg/education/gptccollage.jpg',
+    'image': 'assets/img/svg/education/gptccollage.jpg',
     'name': 'Diploma of Higher Education',
     'alt': 'Image of diploma of higher education',
   }],
@@ -86,7 +87,7 @@ export let DIPLOMAS: Diploma[] = [
     'name': 'Government Polytechnic College, Chelakkara',
     'place': 'Thrissur',
     'country': 'India',
-    'image': '../../../assets/img/svg/education/gptccollage.jpg',
+    'image': 'assets/img/svg/education/gptccollage.jpg',
     'url': 'Government Polytechnic College, Chelakkara'
   },
   'dates': {
@@ -97,7 +98,7 @@ export let DIPLOMAS: Diploma[] = [
     {
       'id': '#project1',
       'name': 'Noukari clone',
-      'image': '../../../assets/img/svg/education/gptc.jpg',
+      'image': 'assets/img/svg/education/gptc.jpg',
       'url': null
     }
   ]

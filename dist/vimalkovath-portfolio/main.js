@@ -3104,7 +3104,7 @@ var CodeschoolService = /** @class */ (function () {
      */
     CodeschoolService.prototype.getCodeschoolProfile = function () {
         // return this.http.get<any>('http://localhost:4200/data/mock-codeschool.json');
-        return this.http.get('../../assets/data/mock-codeschool.json');
+        return this.http.get('assets/data/mock-codeschool.json');
     };
     CodeschoolService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
@@ -5042,7 +5042,8 @@ var DIPLOMAS = [
         'name': '#diplomaCs',
         'category': 'Certification',
         'gallery': [{
-                'image': '../../../assets/img/svg/education/udemy.svg',
+                // 'image': '../../../assets/img/svg/education/udemy.svg',
+                'image': 'assets/img/svg/education/udemy.svg',
                 'name': 'udemy Logo',
                 'alt': 'Image of udemy logo',
             }],
@@ -5055,7 +5056,7 @@ var DIPLOMAS = [
         ],
         'school': {
             'name': 'udemy',
-            'image': '../../../assets/img/svg/education/udemy.svg',
+            'image': 'assets/img/svg/education/udemy.svg',
             'place': 'Online',
             'country': 'Online',
             'url': 'https://www.udemy.com/'
@@ -5071,7 +5072,7 @@ var DIPLOMAS = [
         'name': '#Btech',
         'category': 'Bachelor\'s Degree',
         'gallery': [{
-                'image': '../../../assets/img/png/diplomas/au.jpeg',
+                'image': 'assets/img/png/diplomas/au.jpeg',
                 'name': 'Bachelor\'s Degree Diploma',
                 'alt': 'Image of bachelor\'s degree diploma',
             }],
@@ -5085,7 +5086,7 @@ var DIPLOMAS = [
             'name': 'King collage of technology namakkal',
             'place': 'Tamil nadu',
             'country': 'India',
-            'image': '../../../assets/img/png/diplomas/au.jpeg',
+            'image': 'assets/img/png/diplomas/au.jpeg',
             'url': 'https://www.annauniv.edu/'
         },
         'dates': {
@@ -5095,7 +5096,7 @@ var DIPLOMAS = [
         'projects': [{
                 'id': '#project5',
                 'name': '',
-                'image': '../../../assets/img/png/diplomas/au.jpeg',
+                'image': 'assets/img/png/diplomas/au.jpeg',
                 'url': 'https://www.annauniv.edu/'
             }]
     },
@@ -5104,7 +5105,7 @@ var DIPLOMAS = [
         'name': '#diploma',
         'category': 'University Diploma',
         'gallery': [{
-                'image': '../../../assets/img/svg/education/gptccollage.jpg',
+                'image': 'assets/img/svg/education/gptccollage.jpg',
                 'name': 'Diploma of Higher Education',
                 'alt': 'Image of diploma of higher education',
             }],
@@ -5120,7 +5121,7 @@ var DIPLOMAS = [
             'name': 'Government Polytechnic College, Chelakkara',
             'place': 'Thrissur',
             'country': 'India',
-            'image': '../../../assets/img/svg/education/gptccollage.jpg',
+            'image': 'assets/img/svg/education/gptccollage.jpg',
             'url': 'Government Polytechnic College, Chelakkara'
         },
         'dates': {
@@ -5131,7 +5132,7 @@ var DIPLOMAS = [
             {
                 'id': '#project1',
                 'name': 'Noukari clone',
-                'image': '../../../assets/img/svg/education/gptc.jpg',
+                'image': 'assets/img/svg/education/gptc.jpg',
                 'url': null
             }
         ]
@@ -5222,49 +5223,50 @@ var HOBBIES = [
     {
         'id': '#hobby6',
         'name': '#hobbyReading',
-        'image': '../../../assets/img/svg/hobbies/reading.svg',
+        // 'image': '../../../assets/img/svg/hobbies/reading.svg',
+        'image': 'assets/img/svg/hobbies/reading.svg',
         'desc': '#hobbyReading',
         'url': null
     },
     {
         'id': '#hobby6',
         'name': '#hobbyDrawing',
-        'image': '../../../assets/img/svg/hobbies/drawing.svg',
+        'image': 'assets/img/svg/hobbies/drawing.svg',
         'desc': '#hobbyDrawing',
         'url': null
     },
     {
         'id': '#hobby6',
         'name': '#hobbyMusic',
-        'image': '../../../assets/img/svg/hobbies/music.svg',
+        'image': 'assets/img/svg/hobbies/music.svg',
         'desc': '#hobbyMusic',
         'url': null
     },
     {
         'id': '#hobby4',
         'name': '#hobbyBadminton',
-        'image': '../../../assets/img/svg/hobbies/badminton.svg',
+        'image': 'assets/img/svg/hobbies/badminton.svg',
         'desc': '#hobbyBadminton',
         'url': null
     },
     {
         'id': '#hobby3',
         'name': '#hobbyCulture',
-        'image': '../../../assets/img/svg/hobbies/history.svg',
+        'image': 'assets/img/svg/hobbies/history.svg',
         'desc': '#hobbyDescCulture',
         'url': null
     },
     {
         'id': '#hobby2',
         'name': '#hobbyChess',
-        'image': '../../../assets/img/svg/hobbies/chess.svg',
+        'image': 'assets/img/svg/hobbies/chess.svg',
         'desc': '#hobbyChess',
         'url': null
     },
     {
         'id': '#hobby1',
         'name': '#hobbyCricket',
-        'image': '../../../assets/img/svg/hobbies/cricket.svg',
+        'image': 'assets/img/svg/hobbies/cricket.svg',
         'desc': '#hobbyCricket',
         'url': null
     }
@@ -5716,7 +5718,8 @@ var SKILLS = [
         'frequent': true,
         'category': 'Framework',
         'desc': '#skillNode',
-        'image': '../../../assets/img/svg/skills/node.svg',
+        // 'image': '../../../assets/img/svg/skills/node.svg',
+        'image': 'assets/img/svg/skills/node.svg',
         'url': 'https://nodejs.org/'
     }, {
         'id': '#skill33',
@@ -5725,7 +5728,7 @@ var SKILLS = [
         'frequent': false,
         'category': 'Framework',
         'desc': '#skillD3',
-        'image': '../../../assets/img/svg/skills/d3.svg',
+        'image': 'assets/img/svg/skills/d3.svg',
         'url': 'https://d3js.org/'
     },
     {
@@ -5735,7 +5738,7 @@ var SKILLS = [
         'frequent': false,
         'category': 'Design',
         'desc': '#skillSketch',
-        'image': '../../../assets/img/svg/skills/sketch.svg',
+        'image': 'assets/img/svg/skills/sketch.svg',
         'url': 'https://www.sketchapp.com/'
     },
     {
@@ -5745,7 +5748,7 @@ var SKILLS = [
         'frequent': false,
         'category': 'Back-End',
         'desc': '#skillAws',
-        'image': '../../../assets/img/svg/skills/aws.svg',
+        'image': 'assets/img/svg/skills/aws.svg',
         'url': 'https://aws.amazon.com/'
     },
     {
@@ -5755,7 +5758,7 @@ var SKILLS = [
         'frequent': false,
         'category': 'Back-End',
         'desc': '#skillGdev',
-        'image': '../../../assets/img/svg/skills/googledev.svg',
+        'image': 'assets/img/svg/skills/googledev.svg',
         'url': 'https://developers.google.com/'
     },
     {
@@ -5765,7 +5768,7 @@ var SKILLS = [
         'frequent': false,
         'category': 'Back-End',
         'desc': '#skillIonCloud',
-        'image': '../../../assets/img/svg/skills/ioniccloud.svg',
+        'image': 'assets/img/svg/skills/ioniccloud.svg',
         'url': 'https://ionicframework.com/pro'
     },
     {
@@ -5775,7 +5778,7 @@ var SKILLS = [
         'frequent': false,
         'category': 'Design',
         'desc': '#skillCreator',
-        'image': '../../../assets/img/svg/skills/ioniccreator.svg',
+        'image': 'assets/img/svg/skills/ioniccreator.svg',
         'url': 'http://ionic.io/products/creator'
     },
     {
@@ -5785,7 +5788,7 @@ var SKILLS = [
         'frequent': false,
         'category': 'Design',
         'desc': '#skillDrawio',
-        'image': '../../../assets/img/svg/skills/drawio.svg',
+        'image': 'assets/img/svg/skills/drawio.svg',
         'url': 'https://www.draw.io/'
     },
     {
@@ -5795,7 +5798,7 @@ var SKILLS = [
         'frequent': false,
         'category': 'Front-End',
         'desc': '#skillFoundation',
-        'image': '../../../assets/img/svg/skills/foundation.svg',
+        'image': 'assets/img/svg/skills/foundation.svg',
         'url': 'https://en.wikipedia.org/wiki/Foundation_(framework)'
     },
     {
@@ -5805,7 +5808,7 @@ var SKILLS = [
         'frequent': true,
         'category': 'Framework',
         'desc': '#skillAngular',
-        'image': '../../../assets/img/svg/skills/angular.svg',
+        'image': 'assets/img/svg/skills/angular.svg',
         'url': 'https://en.wikipedia.org/wiki/AngularJS'
     },
     {
@@ -5815,7 +5818,7 @@ var SKILLS = [
         'frequent': true,
         'category': 'Javascript',
         'desc': '#skillTypescript',
-        'image': '../../../assets/img/svg/skills/typescript.svg',
+        'image': 'assets/img/svg/skills/typescript.svg',
         'url': 'https://en.wikipedia.org/wiki/TypeScript'
     },
     {
@@ -5825,7 +5828,7 @@ var SKILLS = [
         'frequent': true,
         'category': 'Javascript',
         'desc': '#skillJquery',
-        'image': '../../../assets/img/svg/skills/jquery.svg',
+        'image': 'assets/img/svg/skills/jquery.svg',
         'url': 'https://en.wikipedia.org/wiki/JQuery'
     },
     {
@@ -5845,7 +5848,7 @@ var SKILLS = [
         'frequent': false,
         'category': 'Front-End',
         'desc': '#skillLess',
-        'image': '../../../assets/img/svg/skills/less.svg',
+        'image': 'assets/img/svg/skills/less.svg',
         'url': 'https://en.wikipedia.org/wiki/Less_(stylesheet_language)'
     },
     {
@@ -5855,7 +5858,7 @@ var SKILLS = [
         'frequent': true,
         'category': 'Front-End',
         'desc': '#skillBootstrap',
-        'image': '../../../assets/img/svg/skills/bootstrap.svg',
+        'image': 'assets/img/svg/skills/bootstrap.svg',
         'url': 'https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)'
     },
     {
@@ -5865,7 +5868,7 @@ var SKILLS = [
         'frequent': false,
         'category': 'Front-End',
         'desc': '#skillGulp',
-        'image': '../../../assets/img/svg/skills/gulp.svg',
+        'image': 'assets/img/svg/skills/gulp.svg',
         'url': 'https://en.wikipedia.org/wiki/Gulp.js'
     },
     {
@@ -5875,7 +5878,7 @@ var SKILLS = [
         'frequent': false,
         'category': 'Framework',
         'desc': '#skillCompass',
-        'image': '../../../assets/img/svg/skills/compass.svg',
+        'image': 'assets/img/svg/skills/compass.svg',
         'url': 'http://compass-style.org/'
     },
     {
@@ -5885,7 +5888,7 @@ var SKILLS = [
         'frequent': true,
         'category': 'Javascript',
         'desc': '#skillJs',
-        'image': '../../../assets/img/svg/skills/javascript.svg',
+        'image': 'assets/img/svg/skills/javascript.svg',
         'url': 'https://en.wikipedia.org/wiki/JavaScript'
     },
     {
@@ -5895,7 +5898,7 @@ var SKILLS = [
         'frequent': true,
         'category': 'Front-End',
         'desc': '#skillCss',
-        'image': '../../../assets/img/svg/skills/css.svg',
+        'image': 'assets/img/svg/skills/css.svg',
         'url': 'https://en.wikipedia.org/wiki/Cascading_Style_Sheets'
     },
     {
@@ -5905,7 +5908,7 @@ var SKILLS = [
         'frequent': true,
         'category': 'Front-End',
         'desc': '#skillHtml',
-        'image': '../../../assets/img/svg/skills/html.svg',
+        'image': 'assets/img/svg/skills/html.svg',
         'url': 'https://en.wikipedia.org/wiki/HTML'
     },
     {
@@ -5937,14 +5940,14 @@ var SOCIALS = [{
         'id': '#social8',
         'name': 'LinkedIn',
         'featured': true,
-        'image': '../../../assets/img/svg/socials/linkedin.svg',
+        'image': 'assets/img/svg/socials/linkedin.svg',
         'url': 'https://www.linkedin.com/in/vimal-kovath-88790483/'
     },
     {
         'id': '#social7',
         'name': 'GitHub',
         'featured': true,
-        'image': '../../../assets/img/svg/socials/github.svg',
+        'image': 'assets/img/svg/socials/github.svg',
         'url': 'https://github.com/vimalkovath'
     },
     {
@@ -5958,28 +5961,29 @@ var SOCIALS = [{
         'id': '#social4',
         'name': 'Stack Overflow',
         'featured': false,
-        'image': '../../../assets/img/svg/socials/stackoverflow.svg',
+        'image': 'assets/img/svg/socials/stackoverflow.svg',
         'url': 'https://stackoverflow.com/users/3496512/vimalkovath'
     },
     {
         'id': '#social3',
         'name': 'Codepen',
         'featured': false,
-        'image': '../../../assets/img/svg/socials/codepen.svg',
+        'image': 'assets/img/svg/socials/codepen.svg',
         'url': 'http://codepen.io/vimalkovath/'
     },
     {
         'id': '#social1',
         'name': 'Facebook',
         'featured': false,
-        'image': '../../../assets/img/svg/socials/fb.svg',
+        'image': 'assets/img/svg/socials/fb.svg',
         'url': 'https://www.facebook.com/vimal.kovath'
     },
     {
         'id': '#social5',
         'name': 'twitter',
         'featured': false,
-        'image': '../../../assets/img/svg/socials/twitter.svg',
+        // 'image': '../../../assets/img/svg/socials/twitter.svg',
+        'image': 'assets/img/svg/socials/twitter.svg',
         'url': 'https://twitter.com/VimalKovath'
     }
 ];

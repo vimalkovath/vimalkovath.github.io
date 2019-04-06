@@ -9,7 +9,8 @@ export let SKILLS: Skill[] = [
     'frequent': true,
     'category': 'Framework',
     'desc': '#skillNode',
-    'image': '../../../assets/img/svg/skills/node.svg',
+    // 'image': '../../../assets/img/svg/skills/node.svg',
+    'image': 'assets/img/svg/skills/node.svg',
     'url': 'https://nodejs.org/'
   },{
   'id': '#skill33',
@@ -18,7 +19,7 @@ export let SKILLS: Skill[] = [
   'frequent': false,
   'category': 'Framework',
   'desc': '#skillD3',
-  'image': '../../../assets/img/svg/skills/d3.svg',
+  'image': 'assets/img/svg/skills/d3.svg',
   'url': 'https://d3js.org/'
 },
 {
@@ -28,7 +29,7 @@ export let SKILLS: Skill[] = [
   'frequent': false,
   'category': 'Design',
   'desc': '#skillSketch',
-  'image': '../../../assets/img/svg/skills/sketch.svg',
+  'image': 'assets/img/svg/skills/sketch.svg',
   'url': 'https://www.sketchapp.com/'
 },
 {
@@ -38,7 +39,7 @@ export let SKILLS: Skill[] = [
   'frequent': false,
   'category': 'Back-End',
   'desc': '#skillAws',
-  'image': '../../../assets/img/svg/skills/aws.svg',
+  'image': 'assets/img/svg/skills/aws.svg',
   'url': 'https://aws.amazon.com/'
 },
 {
@@ -48,7 +49,7 @@ export let SKILLS: Skill[] = [
   'frequent': false,
   'category': 'Back-End',
   'desc': '#skillGdev',
-  'image': '../../../assets/img/svg/skills/googledev.svg',
+  'image': 'assets/img/svg/skills/googledev.svg',
   'url': 'https://developers.google.com/'
 },
 {
@@ -58,7 +59,7 @@ export let SKILLS: Skill[] = [
   'frequent': false,
   'category': 'Back-End',
   'desc': '#skillIonCloud',
-  'image': '../../../assets/img/svg/skills/ioniccloud.svg',
+  'image': 'assets/img/svg/skills/ioniccloud.svg',
   'url': 'https://ionicframework.com/pro'
 },
  {
@@ -68,7 +69,7 @@ export let SKILLS: Skill[] = [
   'frequent': false,
   'category': 'Design',
   'desc': '#skillCreator',
-  'image': '../../../assets/img/svg/skills/ioniccreator.svg',
+  'image': 'assets/img/svg/skills/ioniccreator.svg',
   'url': 'http://ionic.io/products/creator'
 },
 
@@ -79,7 +80,7 @@ export let SKILLS: Skill[] = [
   'frequent': false,
   'category': 'Design',
   'desc': '#skillDrawio',
-  'image': '../../../assets/img/svg/skills/drawio.svg',
+  'image': 'assets/img/svg/skills/drawio.svg',
   'url': 'https://www.draw.io/'
 },
 {
@@ -89,7 +90,7 @@ export let SKILLS: Skill[] = [
   'frequent': false,
   'category': 'Front-End',
   'desc': '#skillFoundation',
-  'image': '../../../assets/img/svg/skills/foundation.svg',
+  'image': 'assets/img/svg/skills/foundation.svg',
   'url': 'https://en.wikipedia.org/wiki/Foundation_(framework)'
 },
 {
@@ -99,7 +100,7 @@ export let SKILLS: Skill[] = [
   'frequent': true,
   'category': 'Framework',
   'desc': '#skillAngular',
-  'image': '../../../assets/img/svg/skills/angular.svg',
+  'image': 'assets/img/svg/skills/angular.svg',
   'url': 'https://en.wikipedia.org/wiki/AngularJS'
 },
 {
@@ -109,7 +110,7 @@ export let SKILLS: Skill[] = [
   'frequent': true,
   'category': 'Javascript',
   'desc': '#skillTypescript',
-  'image': '../../../assets/img/svg/skills/typescript.svg',
+  'image': 'assets/img/svg/skills/typescript.svg',
   'url': 'https://en.wikipedia.org/wiki/TypeScript'
 },
 {
@@ -119,7 +120,7 @@ export let SKILLS: Skill[] = [
   'frequent': true,
   'category': 'Javascript',
   'desc': '#skillJquery',
-  'image': '../../../assets/img/svg/skills/jquery.svg',
+  'image': 'assets/img/svg/skills/jquery.svg',
   'url': 'https://en.wikipedia.org/wiki/JQuery'
 },
 {
@@ -139,7 +140,7 @@ export let SKILLS: Skill[] = [
   'frequent': false,
   'category': 'Front-End',
   'desc': '#skillLess',
-  'image': '../../../assets/img/svg/skills/less.svg',
+  'image': 'assets/img/svg/skills/less.svg',
   'url': 'https://en.wikipedia.org/wiki/Less_(stylesheet_language)'
 },
 {
@@ -149,7 +150,7 @@ export let SKILLS: Skill[] = [
   'frequent': true,
   'category': 'Front-End',
   'desc': '#skillBootstrap',
-  'image': '../../../assets/img/svg/skills/bootstrap.svg',
+  'image': 'assets/img/svg/skills/bootstrap.svg',
   'url': 'https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)'
 },
 {
@@ -159,7 +160,7 @@ export let SKILLS: Skill[] = [
   'frequent': false,
   'category': 'Front-End',
   'desc': '#skillGulp',
-  'image': '../../../assets/img/svg/skills/gulp.svg',
+  'image': 'assets/img/svg/skills/gulp.svg',
   'url': 'https://en.wikipedia.org/wiki/Gulp.js'
 },
 {
@@ -169,7 +170,7 @@ export let SKILLS: Skill[] = [
   'frequent': false,
   'category': 'Framework',
   'desc': '#skillCompass',
-  'image': '../../../assets/img/svg/skills/compass.svg',
+  'image': 'assets/img/svg/skills/compass.svg',
   'url': 'http://compass-style.org/'
 },
 
@@ -180,7 +181,7 @@ export let SKILLS: Skill[] = [
   'frequent': true,
   'category': 'Javascript',
   'desc': '#skillJs',
-  'image': '../../../assets/img/svg/skills/javascript.svg',
+  'image': 'assets/img/svg/skills/javascript.svg',
   'url': 'https://en.wikipedia.org/wiki/JavaScript'
 },
 {
@@ -190,7 +191,7 @@ export let SKILLS: Skill[] = [
   'frequent': true,
   'category': 'Front-End',
   'desc': '#skillCss',
-  'image': '../../../assets/img/svg/skills/css.svg',
+  'image': 'assets/img/svg/skills/css.svg',
   'url': 'https://en.wikipedia.org/wiki/Cascading_Style_Sheets'
 },
 {
@@ -200,7 +201,7 @@ export let SKILLS: Skill[] = [
   'frequent': true,
   'category': 'Front-End',
   'desc': '#skillHtml',
-  'image': '../../../assets/img/svg/skills/html.svg',
+  'image': 'assets/img/svg/skills/html.svg',
   'url': 'https://en.wikipedia.org/wiki/HTML'
 }
 ,
