@@ -3,7 +3,7 @@ import { Project } from '../../interfaces/project.interface';
 export let PROJECTS: Project[] = [{
   'id': '#project16',
   'name': 'This Portfolio',
-  'image': '../../../assets/img/svg/projects/portfoliov3.svg',
+  'image': 'assets/img/svg/projects/portfoliov3.svg',
   'featured': true,
   'active': true,
   'category': 'Portfolio',
@@ -13,23 +13,23 @@ export let PROJECTS: Project[] = [{
   'techs': [
     {
       'name': 'Angular',
-      'logo': '../../../assets/img/svg/skills/angular.svg'
+      'logo': 'assets/img/svg/skills/angular.svg'
     },
     {
       'name': 'Sass',
-      'logo': '../../../assets/img/svg/skills/Sass.svg'
+      'logo': 'assets/img/svg/skills/Sass.svg'
     },
     {
       'name': 'Gulp',
-      'logo': '../../../assets/img/svg/skills/gulp.svg'
+      'logo': 'assets/img/svg/skills/gulp.svg'
     },
     {
       'name': 'jQuery',
-      'logo': '../../../assets/img/svg/skills/jquery.svg'
+      'logo': 'assets/img/svg/skills/jquery.svg'
     },
     {
       'name': 'Node',
-      'logo': '../../../assets/img/svg/skills/node.svg'
+      'logo': 'assets/img/svg/skills/node.svg'
     }
   ],
   'gallery': null,
@@ -66,34 +66,34 @@ export let PROJECTS: Project[] = [{
   'techs': [
     {
       'name': 'PHP',
-      'logo': '../../../assets/img/svg/skills/php.svg'
+      'logo': 'assets/img/svg/skills/php.svg'
     },
     {
       'name': 'Javascript',
-      'logo': '../../../assets/img/svg/skills/javascript.svg'
+      'logo': 'assets/img/svg/skills/javascript.svg'
     },
     {
       'name': 'CSS',
-      'logo': '../../../assets/img/svg/skills/css.svg'
+      'logo': 'assets/img/svg/skills/css.svg'
     }
     ,
     {
       'name': 'Node',
-      'logo': '../../../assets/img/svg/skills/node.svg'
+      'logo': 'assets/img/svg/skills/node.svg'
     }
     ,
     {
       'name': 'scss',
-      'logo': '../../../assets/img/svg/skills/Sass.svg'
+      'logo': 'assets/img/svg/skills/Sass.svg'
     }
     ,
     {
       'name': 'angular',
-      'logo': '../../../assets/img/svg/skills/angular.svg'
+      'logo': 'assets/img/svg/skills/angular.svg'
     },
     {
       'name': 'javascript',
-      'logo': '../../../assets/img/svg/skills/javascript.svg'
+      'logo': 'assets/img/svg/skills/javascript.svg'
     }
   ],
   'gallery': null,
@@ -132,38 +132,38 @@ export let PROJECTS: Project[] = [{
    
     {
       'name': 'Bootstrap',
-      'logo': '../../../assets/img/svg/skills/bootstrap.svg'
+      'logo': 'assets/img/svg/skills/bootstrap.svg'
     },
     {
       'name': 'jQuery',
-      'logo': '../../../assets/img/svg/skills/jquery.svg'
+      'logo': 'assets/img/svg/skills/jquery.svg'
     },
     {
       'name': 'java',
-      'logo': '../../../assets/img/svg/skills/java.svg'
+      'logo': 'assets/img/svg/skills/java.svg'
     },
     {
       'name': 'html',
-      'logo': '../../../assets/img/svg/skills/html.svg'
+      'logo': 'assets/img/svg/skills/html.svg'
     },
     {
       'name': 'CSS',
-      'logo': '../../../assets/img/svg/skills/css.svg'
+      'logo': 'assets/img/svg/skills/css.svg'
     }
   ],
   'gallery': [
   //   {
-  //   'image': '../../../assets/img/png/projects/imakr/imakr_home.png',
+  //   'image': 'assets/img/png/projects/imakr/imakr_home.png',
   //   'name': 'Home Page',
   //   'alt': 'Image of home page',
   // },
   // {
-  //   'image': '../../../assets/img/png/projects/imakr/imakr_home_top.png',
+  //   'image': 'assets/img/png/projects/imakr/imakr_home_top.png',
   //   'name': 'Home Page top section',
   //   'alt': 'Image of top section of home',
   // },  
   // {
-  //   'image': '../../../assets/img/png/projects/imakr/imakr_mockup_grid.png',
+  //   'image': 'assets/img/png/projects/imakr/imakr_mockup_grid.png',
   //   'name': 'Mockup Grid',
   //   'alt': 'Image of mockup of grid',
   // }
@@ -177,7 +177,7 @@ export let PROJECTS: Project[] = [{
   'docs': [
   //   {
   //   'name': 'Mockup Homepage',
-  //   'url': '../../../assets/docs/imakr/homepage.pdf',
+  //   'url': 'assets/docs/imakr/homepage.pdf',
   // }
 ],
   'dates': {
@@ -191,19 +191,19 @@ export let PROJECTS: Project[] = [{
 // {
 //   'id': '#project4',
 //   'name': 'HCE',
-//   'image': '../../../assets/img/png/projects/hce/hce.png',
+//   'image': 'assets/img/png/projects/hce/hce.png',
 //   'featured': false,
 //   'active': false,
 //   'category': 'Web App',
 //   'company': {
 //     'name': 'Digitela',
-//     'logo': '../../../assets/img/svg/companies/digitela.svg',
+//     'logo': 'assets/img/svg/companies/digitela.svg',
 //     'url': 'http://www.digitela.fr/',
 //     'role': 'UI Designer'
 //   },
 //   'client': {
 //     'name': 'Haute Coiffure et Esthétique',
-//     'logo': '../../../assets/img/png/projects/hce/hce.png',
+//     'logo': 'assets/img/png/projects/hce/hce.png',
 //     'featured': false,
 //     'url': 'http://reseau-beaute.com/',
 //   },
@@ -211,38 +211,38 @@ export let PROJECTS: Project[] = [{
 //   'techs': [
 //     {
 //       'name': 'Wordpress',
-//       'logo': '../../../assets/img/svg/skills/wp.svg'
+//       'logo': 'assets/img/svg/skills/wp.svg'
 //     },
 //     {
 //       'name': 'Illustrator',
-//       'logo': '../../../assets/img/svg/skills/illustrator.svg'
+//       'logo': 'assets/img/svg/skills/illustrator.svg'
 //     },
 //     {
 //       'name': 'Photoshop',
-//       'logo': '../../../assets/img/svg/skills/photoshop.svg'
+//       'logo': 'assets/img/svg/skills/photoshop.svg'
 //     },
 //     {
 //       'name': 'CSS',
-//       'logo': '../../../assets/img/svg/skills/css.svg'
+//       'logo': 'assets/img/svg/skills/css.svg'
 //     }
 //   ],
 //   'gallery': [{
-//     'image': '../../../assets/img/png/projects/hce/hce_mockup.png',
+//     'image': 'assets/img/png/projects/hce/hce_mockup.png',
 //     'name': 'Zoning',
 //     'alt': 'Image of zoning',
 //   },
 //   {
-//     'image': '../../../assets/img/png/projects/hce/hce_home.png',
+//     'image': 'assets/img/png/projects/hce/hce_home.png',
 //     'name': 'Home Page',
 //     'alt': 'Image of home page',
 //   },
 //   {
-//     'image': '../../../assets/img/png/projects/hce/hce_header1.png',
+//     'image': 'assets/img/png/projects/hce/hce_header1.png',
 //     'name': 'Header Background',
 //     'alt': 'Image of Header Background',
 //   },
 //   {
-//     'image': '../../../assets/img/png/projects/hce/hce_header2.png',
+//     'image': 'assets/img/png/projects/hce/hce_header2.png',
 //     'name': 'Header Background',
 //     'alt': 'Image of Header Background',
 //   }],

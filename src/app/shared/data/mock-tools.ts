@@ -7,7 +7,7 @@ export let TOOLS: Tool[] = [{
   'featured': false,
   'category': 'Collaborative',
   'desc': 'Version Control System',
-  'image': '../../../assets/img/svg/tools/git.svg',
+  'image': 'assets/img/svg/tools/git.svg',
   'url': 'https://en.wikipedia.org/wiki/Git'
 },
 {
@@ -16,7 +16,7 @@ export let TOOLS: Tool[] = [{
   'featured': false,
   'category': 'IDE',
   'desc': 'IDE developed by Adobe',
-  'image': '../../../assets/img/svg/tools/dreamweaver.svg',
+  'image': 'assets/img/svg/tools/dreamweaver.svg',
   'url': 'https://en.wikipedia.org/wiki/Adobe_Dreamweaver'
 },
 {
@@ -25,7 +25,7 @@ export let TOOLS: Tool[] = [{
   'featured': false,
   'category': 'Project Management',
   'desc': 'Tool for taking notes',
-  'image': '../../../assets/img/svg/tools/evernote.svg',
+  'image': 'assets/img/svg/tools/evernote.svg',
   'url': 'https://en.wikipedia.org/wiki/Evernote'
 },
 {
@@ -34,7 +34,7 @@ export let TOOLS: Tool[] = [{
   'featured': true,
   'category': 'Package Manager',
   'desc': 'Default package manager for every project',
-  'image': '../../../assets/img/svg/tools/npm.svg',
+  'image': 'assets/img/svg/tools/npm.svg',
   'url': 'https://en.wikipedia.org/wiki/Npm_(software)'
 },
 {
@@ -43,7 +43,7 @@ export let TOOLS: Tool[] = [{
   'featured': false,
   'category': 'Collaborative',
   'desc': 'Cloud service & Desktop Softwares',
-  'image': '../../../assets/img/svg/tools/office.svg',
+  'image': 'assets/img/svg/tools/office.svg',
   'url': 'https://en.wikipedia.org/wiki/Microsoft_Office'
 },
 {
@@ -52,7 +52,7 @@ export let TOOLS: Tool[] = [{
   'featured': false,
   'category': 'Collaborative',
   'desc': 'Cloud service',
-  'image': '../../../assets/img/svg/tools/slack.svg',
+  'image': 'assets/img/svg/tools/slack.svg',
   'url': 'https://en.wikipedia.org/wiki/Slack_Technologies'
 },
 {
@@ -61,7 +61,7 @@ export let TOOLS: Tool[] = [{
   'featured': false,
   'category': 'Project Management',
   'desc': 'Kanban based project management tool',
-  'image': '../../../assets/img/svg/tools/trello.svg',
+  'image': 'assets/img/svg/tools/trello.svg',
   'url': 'https://en.wikipedia.org/wiki/Trello'
 },
 {
@@ -70,7 +70,7 @@ export let TOOLS: Tool[] = [{
   'featured': false,
   'category': 'Collaborative',
   'desc': 'Cloud service',
-  'image': '../../../assets/img/svg/tools/googledrive.svg',
+  'image': 'assets/img/svg/tools/googledrive.svg',
   'url': 'https://en.wikipedia.org/wiki/Google_Drive'
 },
 {
@@ -79,7 +79,7 @@ export let TOOLS: Tool[] = [{
   'featured': true,
   'category': 'Collaborative',
   'desc': 'Suite of tools: BitBucket, Jira, Sourcetree and so on',
-  'image': '../../../assets/img/svg/tools/atlassian.svg',
+  'image': 'assets/img/svg/tools/atlassian.svg',
   'url': 'https://en.wikipedia.org/wiki/Atlassian'
 },
 {
@@ -88,7 +88,7 @@ export let TOOLS: Tool[] = [{
   'featured': true,
   'category': 'Collaborative',
   'desc': 'Web & Destktop Git UI tool',
-  'image': '../../../assets/img/svg/tools/github.svg',
+  'image': 'assets/img/svg/tools/github.svg',
   'url': 'https://en.wikipedia.org/wiki/GitHub'
 },
 {
@@ -97,7 +97,7 @@ export let TOOLS: Tool[] = [{
   'featured': true,
   'category': 'IDE',
   'desc': 'Powerful, flexible and free IDE developed by GitHub',
-  'image': '../../../assets/img/svg/tools/atom.svg',
+  'image': 'assets/img/svg/tools/atom.svg',
   'url': 'https://en.wikipedia.org/wiki/Atom_(text_editor)'
 }
 ,

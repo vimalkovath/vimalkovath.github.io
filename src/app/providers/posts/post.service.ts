@@ -20,7 +20,7 @@ export class PostService {
    */
   public getPosts(): Observable<any> {
     // return this.http.get<any>('http://localhost:4200/data/mock-codeschool.json');
-    return this.http.get<any>('../../assets/data/mock-post.json');
+    return this.http.get<any>('https://vimalkovath.github.io/src/assets/data/mock-post.json');
   }
 
 }

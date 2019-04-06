@@ -18,7 +18,7 @@ export let ROLES: Role[] = [{
     },
     {
       'name': 'Typescript',
-      'logo': '../../../assets/img/svg/skills/typescript.svg'
+      'logo': 'assets/img/svg/skills/typescript.svg'
     },
     {
       'name': 'Scss',
@@ -26,31 +26,31 @@ export let ROLES: Role[] = [{
     },
     {
       'name': 'Draw.io',
-      'logo': '../../../assets/img/svg/skills/drawio.svg'
+      'logo': 'assets/img/svg/skills/drawio.svg'
     },
     {
       'name': 'D3.js',
-      'logo': '../../../assets/img/svg/skills/d3.svg'
+      'logo': 'assets/img/svg/skills/d3.svg'
     },
     {
       'name': 'Google Developers',
-      'logo': '../../../assets/img/svg/skills/googledev.svg'
+      'logo': 'assets/img/svg/skills/googledev.svg'
     },
     {
       'name': 'Gulp',
-      'logo': '../../../assets/img/svg/skills/gulp.svg'
+      'logo': 'assets/img/svg/skills/gulp.svg'
     },
     {
       'name': 'jQuery',
-      'logo': '../../../assets/img/svg/skills/jquery.svg'
+      'logo': 'assets/img/svg/skills/jquery.svg'
     },
     {
       'name': 'Sketch',
-      'logo': '../../../assets/img/svg/skills/sketch.svg'
+      'logo': 'assets/img/svg/skills/sketch.svg'
     },
     {
       'name': 'AWS',
-      'logo': '../../../assets/img/svg/skills/aws.svg'
+      'logo': 'assets/img/svg/skills/aws.svg'
     }
   ],
   'dates': {
@@ -90,7 +90,7 @@ export let ROLES: Role[] = [{
     },
     {
       'name': 'Typescript',
-      'logo': '../../../assets/img/svg/skills/typescript.svg'
+      'logo': 'assets/img/svg/skills/typescript.svg'
     },
     {
       'name': 'Scss',
@@ -98,27 +98,27 @@ export let ROLES: Role[] = [{
     },
     {
       'name': 'Draw.io',
-      'logo': '../../../assets/img/svg/skills/drawio.svg'
+      'logo': 'assets/img/svg/skills/drawio.svg'
     },
     {
       'name': 'D3.js',
-      'logo': '../../../assets/img/svg/skills/d3.svg'
+      'logo': 'assets/img/svg/skills/d3.svg'
     },
     {
       'name': 'Google Developers',
-      'logo': '../../../assets/img/svg/skills/googledev.svg'
+      'logo': 'assets/img/svg/skills/googledev.svg'
     },
     {
       'name': 'Gulp',
-      'logo': '../../../assets/img/svg/skills/gulp.svg'
+      'logo': 'assets/img/svg/skills/gulp.svg'
     },
     {
       'name': 'jQuery',
-      'logo': '../../../assets/img/svg/skills/jquery.svg'
+      'logo': 'assets/img/svg/skills/jquery.svg'
     },
     {
       'name': 'AWS',
-      'logo': '../../../assets/img/svg/skills/aws.svg'
+      'logo': 'assets/img/svg/skills/aws.svg'
     }
   ],
   'dates': {
@@ -158,19 +158,19 @@ export let ROLES: Role[] = [{
     },
     {
       'name': 'D3.js',
-      'logo': '../../../assets/img/svg/skills/d3.svg'
+      'logo': 'assets/img/svg/skills/d3.svg'
     },
     {
       'name': 'Gulp',
-      'logo': '../../../assets/img/svg/skills/gulp.svg'
+      'logo': 'assets/img/svg/skills/gulp.svg'
     },
     {
       'name': 'jQuery',
-      'logo': '../../../assets/img/svg/skills/jquery.svg'
+      'logo': 'assets/img/svg/skills/jquery.svg'
     },
     {
       'name': 'AWS',
-      'logo': '../../../assets/img/svg/skills/aws.svg'
+      'logo': 'assets/img/svg/skills/aws.svg'
     }
   ],
   'dates': {
@@ -206,23 +206,23 @@ export let ROLES: Role[] = [{
   'techs': [
     {
       'name': 'html',
-      'logo': '../../../assets/img/svg/skills/html.svg'
+      'logo': 'assets/img/svg/skills/html.svg'
     },
     {
       'name': 'Bootstrap',
-      'logo': '../../../assets/img/svg/skills/bootstrap.svg'
+      'logo': 'assets/img/svg/skills/bootstrap.svg'
     },
     {
       'name': 'jQuery',
-      'logo': '../../../assets/img/svg/skills/jquery.svg'
+      'logo': 'assets/img/svg/skills/jquery.svg'
     },
     {
       'name': 'css',
-      'logo': '../../../assets/img/svg/skills/css.svg'
+      'logo': 'assets/img/svg/skills/css.svg'
     },
     {
       'name': 'javascript',
-      'logo': '../../../assets/img/svg/skills/javascript.svg'
+      'logo': 'assets/img/svg/skills/javascript.svg'
     }
   ],
   'dates': {
