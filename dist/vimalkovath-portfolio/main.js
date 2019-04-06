@@ -3104,7 +3104,7 @@ var CodeschoolService = /** @class */ (function () {
      */
     CodeschoolService.prototype.getCodeschoolProfile = function () {
         // return this.http.get<any>('http://localhost:4200/data/mock-codeschool.json');
-        return this.http.get('assets/data/mock-codeschool.json');
+        return this.http.get('https://vimalkovath.github.io/dist/vimalkovath-portfolio/assets/data/mock-codeschool.json');
     };
     CodeschoolService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
